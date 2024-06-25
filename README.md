@@ -112,3 +112,17 @@
     </form>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pencarian Barang</title>
+</head>
+<body>
+    <form action="proses.php" method="GET">
+        <label for="search">Cari Nama Barang:</label>
+        <input type="text" id="search" name="search" placeholder="Masukkan nama barang..." />
+        <input type="submit" value="Cari" />
+    </form>
+</body>
+</html>
